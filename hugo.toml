@@ -1,0 +1,13 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh'
+publishDir= 'docs'
+title = 'CHAGEE'
+theme = 'ananke'
+hasCJKLanguage = true
+summaryLength = '100'
+canonifyurls = true
+[markup]
+defaultMarkdownHandler = "goldmark"
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
